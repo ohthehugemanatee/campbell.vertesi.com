@@ -380,6 +380,22 @@
 			display: none;
 		}
 	}
+
+/* Font awesome overrides */
+    .image.icon {
+		&:hover {
+			&:before {
+				opacity: 0.8;
+			}
+			&:after {
+				opacity: 0.7;
+			}
+		}
+		&:before {
+			transition: transform 0.1s ease-in-out, font-size 0.1s ease-in-out, opacity 0.1s ease-in-out;
+			opacity: 0.1;
+		}
+	}
 	
 /* List */
 
