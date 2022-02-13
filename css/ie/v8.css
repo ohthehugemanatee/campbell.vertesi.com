@@ -78,7 +78,7 @@
 /* Header */
 
 	#header {
-		background-image: url("../../images/header.jpg") !important;
+		background-image: url("../../images/header-cam.jpg") !important;
 		background-size: cover !important;
 		background-position: scroll !important;
 		-ms-behavior: url("css/ie/backgroundsize.min.htc");
