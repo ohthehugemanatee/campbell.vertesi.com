@@ -1,0 +1,13 @@
+{
+  "name": "campbell-vertesi-com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site (HTML5 UP 'Directive'). Styles are authored in sass/ and compiled to css/.",
+  "scripts": {
+    "build:css": "sass --no-source-map sass/style.scss css/style.css && sass --no-source-map sass/style-normal.scss css/style-normal.css && sass --no-source-map sass/style-mobile.scss css/style-mobile.css && sass --no-source-map sass/style-mobilep.scss css/style-mobilep.css",
+    "watch:css": "sass --no-source-map --watch sass/style.scss:css/style.css sass/style-normal.scss:css/style-normal.css sass/style-mobile.scss:css/style-mobile.css sass/style-mobilep.scss:css/style-mobilep.css"
+  },
+  "devDependencies": {
+    "sass": "^1.100.0"
+  }
+}
